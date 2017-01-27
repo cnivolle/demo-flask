@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def headers():
-    return '<br/>'.join(['%s => %s' % (key, value) for (key, value) in request.headers.items()])
+    return '<h1 style="font-family: -apple-system">Hello World!</h1>'
 
 @app.route("/favicon.ico")
 def favicon():
